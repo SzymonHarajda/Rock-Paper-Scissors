@@ -1,7 +1,32 @@
 *{
-    background-color: #ebebeb;
+    background-color: #edede9;
     font-family: 'Source Code Pro', Arial, Helvetica, sans-serif;
+    justify-content: center;
+
 }
+
 h1{
     font-size: 65px;
+    display: flex;
+    margin: 3rem;
+
+}
+p{
+    font-size: 40px;
+    display: flex;
+    margin: 3rem;
+
+}
+.score-label{
+    font-size: 35px;
+    display: flex;
+    gap: 11rem;
+}
+.buttons{
+    display: flex;
+    gap: 3rem;
+}
+.winner{
+    display: flex;
+    font-size: 20px;
 }
